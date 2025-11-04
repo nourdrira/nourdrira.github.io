@@ -196,28 +196,68 @@
   <h2 class="section-title">💡 Technical Skills</h2>
   <div class="skills-container">
     <div class="skill">
-      <span>Angular</span>
+      <span>Angular — 90%</span>
       <div class="progress"><div class="progress-fill" style="width:90%"></div></div>
     </div>
     <div class="skill">
-      <span>Spring Boot</span>
+      <span>Spring Boot — 85%</span>
       <div class="progress"><div class="progress-fill" style="width:85%"></div></div>
     </div>
     <div class="skill">
-      <span>Docker</span>
+      <span>Docker — 75%</span>
+      <div class="progress"><div class="progress-fill" style="width:75%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Machine Learning — 70%</span>
+      <div class="progress"><div class="progress-fill" style="width:70%"></div></div>
+    </div>
+    <div class="skill">
+      <span>MySQL — 80%</span>
       <div class="progress"><div class="progress-fill" style="width:80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Git & GitHub — 95%</span>
+      <div class="progress"><div class="progress-fill" style="width:95%"></div></div>
     </div>
   </div>
 </section>
 
 <style>
-.skills-container { max-width:700px; margin:0 auto; }
-.skill { margin-bottom:1.2rem; text-align:left; }
-.skill span { display:block; font-weight:600; margin-bottom:0.3rem; }
-.progress { width:100%; background:#e0f2f7; border-radius:10px; overflow:hidden; height:20px; }
-.progress-fill { height:100%; background:#0077b6; width:0%; border-radius:10px; animation:fill 1.5s forwards; }
-@keyframes fill { from {width:0;} to {width:inherit;} }
+.skills-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem 3rem;
+}
+
+.skill {
+  text-align: left;
+}
+
+.skill span {
+  display: inline-block;
+  font-weight: 600;
+  color: #023047;
+  margin-bottom: 0.4rem;
+}
+
+.progress {
+  width: 100%;
+  background: #e0f2f7;
+  border-radius: 50px;
+  overflow: hidden;
+  height: 15px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  border-radius: 50px;
+  transition: width 1s ease-in-out;
+}
 </style>
+
 
 
   <section id="experience">
